@@ -1,0 +1,35 @@
+.login{
+    width: 100%;
+    height: 85%;
+}
+
+.login h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.login-form{
+    width: 25%;
+    height: 50%;
+    background: rgb(61, 60, 60);
+    border-radius: 1rem;
+}
+
+.login-form label{
+    color: white;
+    font-weight: 500;
+}
+
+.login-form input{
+    width: 70%;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.login-form button{
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}

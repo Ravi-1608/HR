@@ -9,6 +9,7 @@ import Manager from './Components/Manager/Manager';
 import Admin from './Components/Admin/Admin';
 import Login from './Components/Login/Login';
 import { useAppContext } from './Context/AppContext';
+import Register from './Components/Register/Register';
 
 
 function App() {
@@ -26,6 +27,11 @@ function App() {
         <Route path='/Employee-login' element={<Login user='Employee' />} />
         <Route path='/Manager-login' element={<Login user='Manager' />} />
         <Route path='/Admin-login' element={<Login user='Admin' />} />
+
+      {/* register Routes */}
+        <Route path='/Employee-register' element={<Register user='Employee' />} />
+        <Route path='/Manager-register' element={<Register user='Manager' />} />
+        <Route path='/Admin-register' element={<Register user='Admin' />} />
 
         {/* Dashboard Routes */}
 

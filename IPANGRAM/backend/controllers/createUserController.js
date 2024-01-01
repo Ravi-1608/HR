@@ -24,7 +24,7 @@ const addEmployee = async (req, res) => {
         });
 
         const saveEmployee = await employee.save();
-        res.status(200).json({ message: "Employee data successful", data: saveEmployee });
+        res.status(200).json({ message: "Congratulation Employee data Added successful", data: saveEmployee });
 
     } catch (error) {
         if (error.code===11000) {

@@ -1,11 +1,29 @@
-.logo{
+.logo {
     position: relative;
     width: 20%;
     height: 100%;
 }
 
-.navigation{
-    width: 40%;
+.navigation {
+    width: 50%;
     height: 100%;
-   
+}
+
+.authsection {
+    position: relative;
+    top: 10%;
+    width: 32%;
+    height: 100%;
+    border-radius: 0.2rem;
+    background: rgb(102, 102, 102);
+}
+
+.authsection header {
+    width: 100%;
+  
+}
+
+.authsection button{
+    padding: 0.1rem 0.5rem;
+    font-weight: 700;
 }
